@@ -3,8 +3,6 @@
 Este projeto implementa um **indexador de arquivos** utilizando **Node.js + TypeScript**, com processamento paralelo usando **Worker Threads**.  
 Ele percorre um diretório, lê os arquivos e cria um índice invertido (`indice.json`) com os termos encontrados.
 
----
-
 ## 🚀 Como executar
 
 ### 1. Instalar dependências
