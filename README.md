@@ -1,6 +1,6 @@
 # 📚 Indexador de Arquivos com Worker Threads
 
-Este projeto implementa um **indexador de arquivos** utilizando **Node.js + TypeScript**, com processamento paralelo usando **Worker Threads**.  
+Este projeto implementa um indexador de arquivos utilizando Node.js + TypeScript, com processamento paralelo usando Worker Threads.  
 Ele percorre um diretório, lê os arquivos e cria um índice invertido (`indice.json`) com os termos encontrados.
 
 ## 🚀 Como executar
@@ -8,11 +8,17 @@ Ele percorre um diretório, lê os arquivos e cria um índice invertido (`indice
 ### 1. Instalar dependências
 ```bash
 npm install
-2. Compilar o projeto
+```
+### 2. Compilar o projeto
+```bash
 npx tsc
-3. Executar
+```
+### 3. Executar
+```bash
 node dist/index.js
-📁 Estrutura
+```
+### 📁 Estrutura
+```bash
 src/
 │
 ├── index.ts          # Arquivo principal (coordena a indexação)
@@ -23,3 +29,4 @@ src/
 meus_documentos/      # Diretório com arquivos a serem indexados
 indice.json           # Arquivo gerado com o índice
 tsconfig.json         # Configuração do TypeScript
+```
