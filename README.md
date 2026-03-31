@@ -12,7 +12,7 @@ npm install
 npx tsc
 3. Executar
 node dist/index.js
-📁 Estrutura do projeto
+📁 Estrutura
 src/
 │
 ├── index.ts          # Arquivo principal (coordena a indexação)
